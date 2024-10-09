@@ -1,0 +1,30 @@
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.botao:hover {
+    background-color: transparent;
+}
+
+.iconBotao {
+    color: var(--primaryColor);
+    font-size: 2rem;
+}
+
+.iconBotao:hover {
+    color: var(--darkColor);
+    font-size: 2rem;
+}
